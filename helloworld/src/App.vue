@@ -1,9 +1,11 @@
 <template>
-  <h1>Hola, mundo</h1>
+  <!-- <CounterOption /> -->
+  <CounterComposition />
 </template>
 
-<script lang="ts">
-
+<script lang="ts" setup>
+import CounterOption from './components/CounterOption.vue';
+import CounterComposition from './components/CounterComposition.vue';
 </script>
 
 <style>
