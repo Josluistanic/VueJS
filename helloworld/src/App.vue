@@ -1,11 +1,9 @@
 <template>
-  <!-- <CounterOption /> -->
-  <CounterComposition />
+  <ModelForm />
 </template>
 
 <script lang="ts" setup>
-import CounterOption from './components/CounterOption.vue';
-import CounterComposition from './components/CounterComposition.vue';
+import ModelForm from './components/ModelForm.vue';
 </script>
 
 <style>
